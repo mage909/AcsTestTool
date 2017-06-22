@@ -1,0 +1,125 @@
+{
+  "taskid": 123,
+  "hostname": "xxx",
+  "devices": [
+    {
+      "ID": "xxx",
+      "Branch": "xxx",
+      "Platform": "xxx",
+      "BoardState": "xxx",
+      "CaseName": "xxx",
+      "BuildNo": "xxx",
+      "URL": "http://xxxxxxxx/678/xxx",
+      "CaseName": "monkey",
+      "MaxTime": "xxx",
+      "Crash": [
+        {
+          "crashtype": "IPANIC",
+          "count": 3,
+          "detail": [
+            {
+              "issuetype": "*",
+              "data": "xxx",
+              "crashlog": "xxx",
+              "severity": "Critical"
+            },
+            {
+              "issuetype": "*",
+              "data": "xxx",
+              "crashlog": "xxx",
+              "severity": "Critical"
+            },
+            {
+              "issuetype": "*",
+              "data": "xxx",
+              "crashlog": "xxx",
+              "severity": "Critical"
+            }
+          ]
+        },
+        {
+          "crashtype": "MPANIC",
+          "count": 3,
+          "detail": [
+            {
+              "issuetype": "*",
+              "data": "xxx",
+              "crashlog": "xxx",
+              "severity": "Critical"
+            },
+            {
+              "issuetype": "*",
+              "data": "xxx",
+              "crashlog": "xxx",
+              "severity": "Critical"
+            },
+            {
+              "issuetype": "*",
+              "data": "xxx",
+              "crashlog": "xxx",
+              "severity": "Critical"
+            }
+          ]
+        },
+        {
+          "crashtype": "Coredump",
+          "count": 1,
+          "detail": [
+            {
+              "issuetype": "Linux",
+              "data": "xxx",
+              "crashlog": "xxx",
+              "severity": "Critical"
+            }
+          ]
+        },
+        {
+          "crashtype": "UIWDT",
+          "count": 1,
+          "detail": [
+            {
+              "issuetype": "*",
+              "data": "xxx",
+              "crashlog": "xxx",
+              "severity": "Critical"
+            }
+          ]
+        },
+        {
+          "crashtype": "ABNORMAL_REBOOT",
+          "count": 1,
+          "detail": []
+        },
+        {
+          "crashtype": "TOMBSTONE",
+          "count": 1,
+          "detail": [
+            {
+              "issuetype": "system_server",
+              "data": "xxx",
+              "crashlog": "xxx",
+              "severity": "xxx"
+            }
+          ]
+        },
+        {
+          "crashtype": "JAVACRASH",
+          "count": 57,
+          "detail": [
+            {
+              "issuetype": "system_server",
+              "data": "xxx",
+              "crashlog": "xxx",
+              "severity": "xxx"
+            }
+          ]
+        },
+        {
+          "crashtype": "ANR",
+          "count": 78,
+          "detail":[]
+        }
+      ]
+    }
+  ]
+}
